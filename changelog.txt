@@ -1,1 +1,1 @@
-- Fixed: Door protection
+- Fixed: Lands owner unlock option for entities

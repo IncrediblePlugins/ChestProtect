@@ -6,7 +6,7 @@
 #   \____/_| |_|\___||___/\__\_|  |_|  \___/ \__\___|\___|\__|
 #
 # Resource page: https://www.spigotmc.org/resources/53494
-# Discord: https://discord.gg/B4MAJVk
+# Discord: https://discord.incredibleplugins.com
 #
 # If you encounter any issues, please report them
 # to discord support server or via pm.
@@ -21,7 +21,7 @@
 general:
   # Default: English (en-US) - no download required.
   # This defines the default language. You can place multiple locales in the plugin's "Language" folder to display different locales depending on the player's locale.
-  # You can access translations maintained by the community in our Discord: https://discord.gg/B4MAJVk
+  # You can access translations maintained by the community in our Discord: https://discord.incredibleplugins.com
   # To access translations, other than en-US, execute /translations in the Discord server.
   language: 'en-US'
 
