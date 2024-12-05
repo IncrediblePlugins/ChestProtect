@@ -1,1 +1,1 @@
-- Fixed: Lands owner unlock option for entities
++ Changed: Dont auto unlock protections from a 3rd party plugin
