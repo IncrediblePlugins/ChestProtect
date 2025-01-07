@@ -1,1 +1,1 @@
-- Fixed: Dont give cashback for protections from 3rd party plugins
++ Improved: Connection with 3rd party plugins that use ChestProtect
