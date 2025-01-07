@@ -1,1 +1,1 @@
-+ Changed: Dont auto unlock protections from a 3rd party plugin
+- Fixed: Dont give cashback for protections from 3rd party plugins

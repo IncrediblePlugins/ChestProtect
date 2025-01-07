@@ -57,6 +57,11 @@ protectables:
         costs:
           value: 50
           cashback: 50
+      fence_gate:
+        enabled: true
+        costs:
+          value: 25
+          cashback: 50
       trapdoor:
         enabled: true
         costs:
