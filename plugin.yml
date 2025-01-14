@@ -100,20 +100,14 @@ permissions:
             children:
               chestprotect.setting.player.auto_lock:
                 description: Access to toggle auto lock
-              chestprotect.setting.player.lock_persistent:
-                description: Access to toggle lock persistent setting
+              chestprotect.setting.player.persistent_lock:
+                description: Access to toggle persistent lock setting
                 default: op
-              chestprotect.setting.player.unlock_persistent:
-                description: Access to toggle unlock persistent setting
+              chestprotect.setting.player.persistent_trust:
+                description: Access to toggle persistent trust setting
                 default: op
-              chestprotect.setting.player.trust_persistent:
-                description: Access to toggle trust persistent setting
-                default: op
-              chestprotect.setting.player.untrust_persistent:
-                description: Access to toggle untrust persistent setting
-                default: op
-              chestprotect.setting.player.setrole_persistent:
-                description: Access to toggle setrole persistent setting
+              chestprotect.setting.player.notifications:
+                description: Access to toggle notifications setting
                 default: op
               chestprotect.setting.player_trust:
                 description: Access to toggle role player trust setting
