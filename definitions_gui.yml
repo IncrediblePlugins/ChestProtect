@@ -85,15 +85,12 @@ gui:
         type_furnace:
           material: 'FURNACE'
           slots: 23
-        type_armor_stand:
-          material: 'ARMOR_STAND'
-          slots: 24
         type_shulker_box:
           material: 'SHULKER_BOX'
-          slots: 25
+          slots: 24
         others:
           material: 'PAPER'
-          slots: 26
+          slots: 25
 
   list_protection-type:
     items:

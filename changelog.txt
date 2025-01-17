@@ -1,1 +1,3 @@
-+ Improved: Connection with 3rd party plugins that use ChestProtect
+This plugin now requires Java 21 or newer.
+
++ Changed: Moved item frames and armor stands to the entities section in protectables.yml

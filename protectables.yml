@@ -72,16 +72,6 @@ protectables:
         costs:
           value: 250
           cashback: 50
-      armor_stand:
-        enabled: true
-        costs:
-          value: 400
-          cashback: 50
-      item_frame:
-        enabled: true
-        costs:
-          value: 5
-          cashback: 2.5
       shulker_box:
         enabled: true
         hologram: true
@@ -131,6 +121,16 @@ protectables:
     # Disable the whole category?
     enabled: true
     types:
+      armor_stand:
+        enabled: true
+        costs:
+          value: 400
+          cashback: 50
+      item_frame:
+        enabled: true
+        costs:
+          value: 5
+          cashback: 2.5
       cow:
         enabled: true
         icon: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ2YzZlZGE5NDJmN2Y1ZjcxYzMxNjFjNzMwNmY0YWVkMzA3ZDgyODk1ZjlkMmIwN2FiNDUyNTcxOGVkYzUifX19
