@@ -1,0 +1,22 @@
+# Common Sounds
+# These are applied to all items starting with the defined prefix.
+common_sounds:
+  # Play a sound when the item is set in the menu.
+  set:
+    # Each item starting with [item_type]_failure_<name> will have this sound set.
+    # You can still override the "sound_set" for any item in their sections.
+    failure: ENTITY_VILLAGER_NO
+
+common:
+  entries: 25
+
+gui:
+  action-confirm:
+    items:
+      default:
+        confirm:
+          slot: 1
+          sound_click: ENTITY_PLAYER_LEVELUP
+        cancel:
+          slot: 2
+          sound_click: BLOCK_ANVIL_HIT

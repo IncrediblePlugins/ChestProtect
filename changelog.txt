@@ -1,3 +1,3 @@
-This plugin now requires Java 21 or newer.
-
-+ Changed: Moved item frames and armor stands to the entities section in protectables.yml
+- Fixed: allow-tnt also allowing other blocks
+- Fixed: Error with geyser and floodgate
+- Fixed: SuperiorSkyblock untrust-remove on kick and player quit
