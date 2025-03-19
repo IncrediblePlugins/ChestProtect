@@ -1,3 +1,1 @@
-- Fixed: allow-tnt also allowing other blocks
-- Fixed: Error with geyser and floodgate
-- Fixed: SuperiorSkyblock untrust-remove on kick and player quit
+- Fixed: InventoryView error

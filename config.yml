@@ -82,6 +82,9 @@ general:
 protection:
   # Should protections take damage from tnt explosion to get unlocked?
   allow-tnt: false
+  # Check which player placed a hopper below a protection to determine, if they're allowed to pull items from a container?
+  # If set to false, hoppers can't take items from containers at all.
+  hopper-check: true
 
   # Sound settings
   # You can disable sounds by setting them to ''
