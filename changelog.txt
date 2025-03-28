@@ -1,1 +1,1 @@
-- Fixed: InventoryView error
+- Fixed: /cp view error
