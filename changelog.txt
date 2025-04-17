@@ -1,1 +1,2 @@
-- Fixed: /cp view error
++ Added: "hide-tooltip" and "tooltip-style" properties to GUI file. Read wiki for more info
+- Fixed: InventoryView error

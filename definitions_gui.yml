@@ -39,6 +39,7 @@ common:
         slots: 44
       placeholder_1:
         material: GRAY_STAINED_GLASS_PANE
+        hide-tooltip: true
         slots: 1-45
 
 gui:
