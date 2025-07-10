@@ -30,8 +30,6 @@ protectables:
         hologram: true
         costs:
           value: 50
-          # Increase protection cost by a specific percentage. To disable this, use 0.
-          # For example paying 5 % more compared to the previous protection creation OF THIS BLOCK TYPE.
           # Give players a percentage back of the original lock cost at unlock. To disable this, use 0.
           cashback: 50
       barrel:

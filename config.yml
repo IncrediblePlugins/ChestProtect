@@ -90,9 +90,9 @@ protection:
   # You can disable sounds by setting them to ''
   sound:
     # Played when protection has been created.
-    locked_sound: 'ENTITY_EXPERIENCE_ORB_PICKUP'
+    locked_sound: 'entity.experience_orb.pickup'
     # Played on protection deletion.
-    unlocked_sound: 'BLOCK_ANVIL_BREAK'
+    unlocked_sound: 'block.anvil.break'
 
   # Default protection settings
   setting:
