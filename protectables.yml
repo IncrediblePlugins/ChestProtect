@@ -105,6 +105,7 @@ protectables:
           cashback: 2.5
       player_wall_head:
         enabled: false
+        icon: PLAYER_HEAD
         costs:
           value: 5
           cashback: 2.5

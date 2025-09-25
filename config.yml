@@ -46,6 +46,10 @@ general:
   #          If disabled: This will result in a limit of 5 protected blocks (containers etc.).
   permission-stacking: false
 
+  # The plugin fetches player skins and names from Mojang.
+  # If disabled, player skins can't be displayed in the menus and name changes will only apply, when they join the server.
+  fetch-skins-names: true
+
   # Date format
   # MM: Month
   # dd: Day of month
@@ -249,6 +253,10 @@ integration:
     global-regions: false
     # Default state of the lock flag. If you use ProtectionStones, then you might want to set this to true.
     default-state: false
+
+  # Should skins be fetched from the 3rd party plugin SkinsRestorer.
+  # This option requires the option "general.fetch-skins-names" to be enabled.
+  skins-restorer: false
 
   # Economy settings
   # If all types are disabled, the item based economy will be used instead.
