@@ -1,1 +1,2 @@
-- Fixed: Removal of hopper minecart if not allowed to take items
++ Added: [Suggestion] Display status title of lock etc. action until mode is disabled
++ Added: FancyHolograms support
