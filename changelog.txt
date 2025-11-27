@@ -1,2 +1,2 @@
-+ Added: [Suggestion] Display status title of lock etc. action until mode is disabled
-+ Added: FancyHolograms support
++ Added: Save player name and skin hash to database to decrease the amount of requests to the Mojang API
+- Fixed: menu-reopen message missing

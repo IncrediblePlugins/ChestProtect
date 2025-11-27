@@ -16,7 +16,7 @@ gui:
       default:
         confirm:
           slot: 1
-          sound_click: ENTITY_PLAYER_LEVELUP
+          sound_click: "entity.player.levelup"
         cancel:
           slot: 2
-          sound_click: BLOCK_ANVIL_HIT
+          sound_click: "block.anvil.hit"
