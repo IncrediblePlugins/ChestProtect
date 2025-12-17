@@ -1,2 +1,1 @@
-+ Added: Save player name and skin hash to database to decrease the amount of requests to the Mojang API
-- Fixed: menu-reopen message missing
+- Fixed: Dont allow copper golem to take or insert items of protected container
