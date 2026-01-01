@@ -1,1 +1,1 @@
-- Fixed: Error on join with playerprofile on spigot
++ Added: [Suggestion] /cp view status message as actionbar
