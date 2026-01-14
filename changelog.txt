@@ -1,1 +1,1 @@
-+ Added: [Suggestion] /cp view status message as actionbar
+- Fixed: Error "Can't set region item for group"
