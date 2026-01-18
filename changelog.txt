@@ -1,1 +1,1 @@
-- Fixed: Error "Can't set region item for group"
+- Fixed: NPCs being trusted to group causing error when opening players menu
