@@ -34,24 +34,6 @@ permissions:
     description: Gives access to all ChestProtect actions
     default: op
     children:
-      chestprotect.blocks.<number>:
-        description: Set maximum block protections amount
-        default: op
-      chestprotect.entities.<number>:
-        description: Set maximum entity protections amount
-        default: op
-      chestprotect.members.<number>:
-        description: Set maximum protection member amount
-        default: op
-      chestprotect.groups.<number>:
-        description: Set maximum groups amount
-        default: op
-      chestprotect.free.blocks.<number>:
-        description: <number> block protections are free (don't cost anything)
-        default: op
-      chestprotect.free.entities.<number>:
-        description: <number> entity protections are free (don't cost anything)
-        default: op
       chestprotect.command.*:
         description: Get access to all commands
         default: op

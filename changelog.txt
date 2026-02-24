@@ -1,1 +1,4 @@
-+ Added: Protected entities, such as wolfes, will no longer target other entities
++ Added: All limits such as max protected blocks, entities must not be edited in the player-limits.yml file.
++ Added: Protected entities, such as wolves, will no longer target other entities.
++ Added: %chestprotect_player_limit_<limit> PlaceholderAPI placeholder. See wiki for more info.
++ Added: /chestprotect admin player <player> give limit <limit> <amount> to modify limits
