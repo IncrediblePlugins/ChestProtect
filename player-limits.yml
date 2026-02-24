@@ -1,0 +1,69 @@
+# In this file you can configure numbered limits for all players.
+# You can create multiple limit packs, if you want players to get different limits. Just add them in the "packs" section.
+#
+# A pack is assigned if the player has a specific permission.
+# A player can only have one pack. Every time a player joins, the pack gets evaluated.
+# They will get the first pack in the list that they have permission for.
+# So your order could be something like this: owner, admin, member etc.
+#
+# You can disable limits by setting the value to -1. However, in general, it's recommended to set limits to prevent abuse.
+# Limits that are not added to a pack, will automatically be set to 0 for the pack.
+#
+# Changes to this file can be applied to all players, using the "/chestprotect admin reload" command.
+packs:
+  # Pack for server admins that removes nearly all limits for them.
+  # You can remove this, if you don't want it.
+  admin:
+    # Required permission to get this pack assigned.
+    permission: "chestprotect.admin.no_limits"
+    limits:
+      player_blocks: -1
+      player_blocks_free: 0
+      player_entities: -1
+      player_entities_free: 0
+      player_groups: -1
+      protection_members: -1
+
+  default:
+    limits:
+      # Amount of blocks the player can protect.
+      player_blocks: 40
+      # Amount of blocks the player can protect for free.
+      player_blocks_free: 0
+      # Amount of entities the player can protect.
+      player_entities: 20
+      # Amount of entities the player can protect for free.
+      player_entities_free: 0
+      # Amount of groups the player can create.
+      player_groups: 10
+      # Amount of players the player can trust to each protection or group.
+      protection_members: 10
+
+
+# By setting up time rewards you can increase a players limit according to their time that they played on the server.
+# A player will receive additional limits each configured period. The playtime is calculated by the server.
+# If you delete the primary world, the playtime of players will likely reset. This is handled by the server itself.
+time-rewards:
+  player_blocks:
+    # Players receive one additional block that they can protect.
+    # Time units are: s = seconds, m = minutes, h = hours, d = days
+    # 0s = disabled
+    time: 0s
+    # Set the maximum amount of protected blocks that they can receive through their play time.
+    # -1 = no limit
+    max: -1
+  player_blocks_free:
+    time: 0s
+    max: -1
+  player_entities:
+    time: 0s
+    max: -1
+  player_entities_free:
+    time: 0s
+    max: -1
+  player_groups:
+    time: 0s
+    max: -1
+  protection_members:
+    time: 0s
+    max: -1

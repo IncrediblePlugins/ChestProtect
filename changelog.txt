@@ -1,1 +1,1 @@
-- Fixed: NPCs being trusted to group causing error when opening players menu
++ Added: Protected entities, such as wolfes, will no longer target other entities
